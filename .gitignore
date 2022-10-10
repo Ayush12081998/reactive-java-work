@@ -10,8 +10,9 @@
 *.tar.gz
 *.rar
 
-#
+# Other project in workspace
 *reactive
 
-#editor configs
+# Editor configs
 *.metadata
+*.settings
