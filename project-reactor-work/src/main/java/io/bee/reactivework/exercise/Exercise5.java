@@ -47,7 +47,7 @@ class ControlledSubscribe<T> extends BaseSubscriber<T> {
      */
     @Override
     public void hookOnNext(T value) {
-        System.out.println("Value received " + value.toString());
+        System.out.println("Value received " + value.toString() +" by "+Thread.currentThread().getName());
         request(3);
     }
 
